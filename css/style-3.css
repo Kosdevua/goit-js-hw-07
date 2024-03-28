@@ -1,0 +1,11 @@
+body {
+  background-color: #fff;
+}
+#name-input {
+  width: 360px;
+  height: 40px;
+  outline: none;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}

@@ -1,0 +1,9 @@
+ul {
+  margin: 100px 150px;
+  display: flex;
+  gap: 24px;
+}
+
+li {
+  list-style-type: none;
+}
