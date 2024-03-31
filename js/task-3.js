@@ -2,13 +2,7 @@
 const inputElement = document.querySelector("#name-input");
 const spanElement = document.querySelector("#name-output");
 
-// console.log(spanElement.textContent);
-
 inputElement.addEventListener("input", (event) => {
-  //   console.log(event.currentTarget.elements.value);
-  console.log(event.target.value);
-  if (event.target.value) {
-    spanElement.textContent = event.target.value.trim() || "Anonymous";
-  }
+  spanElement.textContent = event.target.value.trim() || "Anonymous";
 });
 console.log("helo");

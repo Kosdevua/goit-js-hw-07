@@ -34,6 +34,5 @@ const createGallery = (images) => {
 const galleryArray = images.map((image) => {
   return createGallery(image);
 });
-console.log(galleryArray);
 
 gallery.insertAdjacentHTML("afterbegin", galleryArray.join(""));
