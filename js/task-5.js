@@ -11,6 +11,7 @@ const bodyElement = document.querySelector("body");
 const spanElement = document.querySelector(".color");
 
 buttonElement.addEventListener("click", (event) => {
-  bodyElement.style.backgroundColor = getRandomHexColor();
-  spanElement.style.color = getRandomHexColor();
+  const randomColor = getRandomHexColor();
+  bodyElement.style.backgroundColor = randomColor;
+  spanElement.style.color = randomColor;
 });
